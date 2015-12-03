@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02/12/2015, 20:41:54
+    Author     : Dijalma Silva <dijalmacz@gmail.com>
+*/
+
+.letra-pequena{
+    font-size: 10px !important;
+}
+
+.sem-margem{
+    margin: 0px;
+}
+
+table{
+    text-align: center;
+    margin: 20px;
+}
+
+table tr th{
+    padding: 10px;
+    text-align: center;
+    background: #cccccc;
+}
+
+table tr td{
+    width: 300px !important;
+    height: 20px;
+}

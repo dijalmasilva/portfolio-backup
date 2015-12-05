@@ -24,10 +24,22 @@ table{
 table tr th{
     padding: 10px;
     text-align: center;
-    background: #cccccc;
+    background: #080808;
 }
 
 table tr td{
     width: 300px !important;
     height: 20px;
+}
+
+.backgroud-vermelho{
+    background: #fb6262;
+}
+
+.letra-branca{
+    color: white;
+}
+
+.backgroud-cinzaClaro{
+    background: #eee7e7;
 }

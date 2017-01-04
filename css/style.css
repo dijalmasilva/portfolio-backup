@@ -1,12 +1,18 @@
-//Style created by Dijalma Silva - 03-01-2016 : 16:40
+/*Style created by Dijalma Silva - 03-01-2016 : 16:40 */
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:900');
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
+body{
+    background: #F1F1F1;
+}
+
 .background-me {
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 400px;
     background-image: url("../images/notebook.jpg");
@@ -24,11 +30,47 @@
     color: white;
 }
 
-.border-title {
-    border: 2px solid #fff;
+.border-box {
+    border: 3px solid #fff;
+    margin: 0 auto;
     width: 30%;
+    padding: 2px;
 }
 
 .title_roboto {
     font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.cover-relative {
+    position: relative;
+    margin-top: -300px;
+}
+
+.socialnetworks {
+    width: 30%;
+}
+
+.socialnetworks img:hover {
+    transition-duration: 0.9s;
+    transform: rotate(360deg) ;
+    padding: 2px
+}
+
+.icon {
+    width: 50px;
+}
+
+.color-red{
+    color: #ff3333;
+}
+
+.image-me {
+    position: relative;
+    margin-top: 50px;
+    width: 160px;
+}
+
+.image-me img {
+
 }

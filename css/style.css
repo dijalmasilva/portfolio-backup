@@ -88,10 +88,16 @@ body{
 }
 
 .about-me div {
-    margin-top: 120px;
+    margin-top: 130px;
 }
 
 .about-me hr {
     border: 1px solid #343f4d;
     width: 30px;
+}
+
+.resume-about{
+   width: 90%;
+   margin-top: 75px !important;
+   margin: 0 auto;
 }

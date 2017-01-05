@@ -34,6 +34,7 @@ body{
     border: 3px solid #fff;
     margin: 0 auto;
     width: 30%;
+    min-width: 310px;
     padding: 2px;
 }
 
@@ -51,6 +52,7 @@ body{
 
 .socialnetworks {
     width: 30%;
+    min-width: 310px;
     margin: 0 auto;
 }
 

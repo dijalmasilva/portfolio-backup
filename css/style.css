@@ -228,3 +228,26 @@
   text-align: left;
   border-right: 2px solid #d5d5d5;
 }
+
+.notmobile {
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .timeline {
+    width: 95%;
+    margin-top: 30px;
+  }
+
+  .timeline-left {
+    margin-right: 0px;
+  }
+
+  .timeline-right {
+    margin-left: 0px;
+  }
+
+  .notmobile {
+    display: none;
+  }
+}

@@ -162,7 +162,7 @@
   padding: 10px;
 }
 
-.timeline p {
+.text-little{
   font-size: 15px;
 }
 
@@ -231,6 +231,21 @@
 
 .notmobile {
   display: block;
+}
+
+#services{
+  width: 90%;
+}
+
+.icon-red {
+  width: 90px;
+  height: 80px;
+  background: rgb(215, 60, 31);
+  border-radius: 6px;
+}
+
+.icon-red img {
+  margin-top: 16px;
 }
 
 @media (max-width: 600px) {

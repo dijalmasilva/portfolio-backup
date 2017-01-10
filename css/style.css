@@ -236,11 +236,11 @@
 .services{
   width: 100%;
   background: rgb(182, 182, 182);
+  color: white !important;
 }
 
 #services {
   width: 50%;
-  color: white;
 }
 
 #services p {
@@ -255,7 +255,8 @@
 }
 
 .circle-white-red img {
-  margin-top: 28px;
+  margin-top: 32px;
+  width: 60px;
 }
 
 @media (max-width: 600px) {

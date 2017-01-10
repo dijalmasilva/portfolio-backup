@@ -259,6 +259,16 @@
   width: 60px;
 }
 
+.skills {
+  width: 80%;
+}
+
+.skills img {
+  margin-top: 20px;
+  height: auto;
+  width: 100px;
+}
+
 @media (max-width: 600px) {
   .timeline {
     width: 95%;

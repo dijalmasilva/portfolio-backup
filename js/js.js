@@ -4,7 +4,8 @@ $(document).ready(function (){
   var positionExperience1 = $('#experience1').offset();
   var positionExperience2 = $('#experience2').offset();
   var positionEducation1 = $('#education1').offset();
-
+  var widthScreen = $(window).width();
+  if (widthScreen > 768){
     $(window).scroll(function (){
       var positionScroll = $(this).scrollTop();
       var diference = $(window).height() + 40;
@@ -24,7 +25,7 @@ $(document).ready(function (){
         addAnime($('#education1'), 'bounceInRight');
       }
     });
-
+  }
 });
 
 

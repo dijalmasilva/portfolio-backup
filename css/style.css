@@ -233,19 +233,29 @@
   display: block;
 }
 
-#services{
-  width: 90%;
+.services{
+  width: 100%;
+  background: rgb(182, 182, 182);
 }
 
-.icon-red {
-  width: 90px;
-  height: 80px;
-  background: rgb(215, 60, 31);
-  border-radius: 6px;
+#services {
+  width: 50%;
+  color: white;
 }
 
-.icon-red img {
-  margin-top: 16px;
+#services p {
+  margin-top: 10px;
+}
+
+.circle-white-red {
+  width: 120px;
+  height: 120px;
+  background: white;
+  border-radius: 50%;
+}
+
+.circle-white-red img {
+  margin-top: 28px;
 }
 
 @media (max-width: 600px) {

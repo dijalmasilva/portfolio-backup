@@ -92,6 +92,11 @@
     color: #343f4d;
 }
 
+.title_roboto_white {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
 .about-me div {
     margin-top: 130px;
 }
@@ -267,6 +272,24 @@
   margin-top: 20px;
   height: auto;
   width: 100px;
+}
+
+.phrase {
+  width: 100%;
+  background: rgb(135, 135, 135);
+  color: white;
+}
+
+#phrase {
+  width: 80%;
+}
+
+#phrase hr {
+  border: 1px solid white;
+}
+
+.contact {
+
 }
 
 @media (max-width: 600px) {
